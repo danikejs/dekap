@@ -1,0 +1,21 @@
+# Segredos e variaveis privadas
+.env
+.env.*
+!.env.example
+!backend/.env.example
+.vercel/
+
+# Dependencias e arquivos gerados
+node_modules/
+**/node_modules/
+*.log
+.DS_Store
+coverage/
+
+# Dados locais enviados por usuarios
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/certificados/*
+!backend/certificados/.gitkeep
+*.pfx
+*.p12
